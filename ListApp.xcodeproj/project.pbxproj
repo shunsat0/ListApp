@@ -10,10 +10,10 @@
 		B18297A62C602FF000979463 /* ListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18297A52C602FF000979463 /* ListAppApp.swift */; };
 		B18297AA2C602FF100979463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18297A92C602FF100979463 /* Assets.xcassets */; };
 		B18297AD2C602FF100979463 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18297AC2C602FF100979463 /* Preview Assets.xcassets */; };
-		B1D96F2E2C60573D005F5AF5 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D96F2D2C60573D005F5AF5 /* ListData.swift */; };
-		B1D96F322C605750005F5AF5 /* addListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D96F2F2C605750005F5AF5 /* addListView.swift */; };
-		B1D96F332C605750005F5AF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D96F302C605750005F5AF5 /* SettingsView.swift */; };
-		B1D96F342C605750005F5AF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D96F312C605750005F5AF5 /* ContentView.swift */; };
+		B18D64EF2C627523008B4182 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D64EE2C627523008B4182 /* AddListView.swift */; };
+		B18D64F12C627556008B4182 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D64F02C627556008B4182 /* ListData.swift */; };
+		B18D64F32C627582008B4182 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D64F22C627582008B4182 /* ContentView.swift */; };
+		B18D64F52C6275A9008B4182 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D64F42C6275A9008B4182 /* SettingsView.swift */; };
 		B1D96F372C6057B4005F5AF5 /* WebUI in Frameworks */ = {isa = PBXBuildFile; productRef = B1D96F362C6057B4005F5AF5 /* WebUI */; };
 		B1D96F3A2C6057D4005F5AF5 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = B1D96F392C6057D4005F5AF5 /* GoogleGenerativeAI */; };
 		B1D96F3C2C605937005F5AF5 /* WorkThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D96F3B2C605937005F5AF5 /* WorkThroughView.swift */; };
@@ -24,10 +24,10 @@
 		B18297A52C602FF000979463 /* ListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppApp.swift; sourceTree = "<group>"; };
 		B18297A92C602FF100979463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B18297AC2C602FF100979463 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B1D96F2D2C60573D005F5AF5 /* ListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListData.swift; path = "../../../Desktop/SimpleMemoApp-main/SimpleMemoApp/ListData.swift"; sourceTree = "<group>"; };
-		B1D96F2F2C605750005F5AF5 /* addListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addListView.swift; path = "../../../Desktop/SimpleMemoApp-main/SimpleMemoApp/addListView.swift"; sourceTree = "<group>"; };
-		B1D96F302C605750005F5AF5 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = "../../../Desktop/SimpleMemoApp-main/SimpleMemoApp/SettingsView.swift"; sourceTree = "<group>"; };
-		B1D96F312C605750005F5AF5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Desktop/SimpleMemoApp-main/SimpleMemoApp/ContentView.swift"; sourceTree = "<group>"; };
+		B18D64EE2C627523008B4182 /* AddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListView.swift; sourceTree = "<group>"; };
+		B18D64F02C627556008B4182 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		B18D64F22C627582008B4182 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
+		B18D64F42C6275A9008B4182 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B1D96F3B2C605937005F5AF5 /* WorkThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkThroughView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,14 +63,14 @@
 		B18297A42C602FF000979463 /* ListApp */ = {
 			isa = PBXGroup;
 			children = (
+				B18D64F22C627582008B4182 /* ContentView.swift */,
 				B18297A52C602FF000979463 /* ListAppApp.swift */,
-				B1D96F2D2C60573D005F5AF5 /* ListData.swift */,
-				B1D96F2F2C605750005F5AF5 /* addListView.swift */,
-				B1D96F312C605750005F5AF5 /* ContentView.swift */,
-				B1D96F302C605750005F5AF5 /* SettingsView.swift */,
+				B18D64EE2C627523008B4182 /* AddListView.swift */,
+				B18D64F02C627556008B4182 /* ListData.swift */,
 				B1D96F3B2C605937005F5AF5 /* WorkThroughView.swift */,
 				B18297A92C602FF100979463 /* Assets.xcassets */,
 				B18297AB2C602FF100979463 /* Preview Content */,
+				B18D64F42C6275A9008B4182 /* SettingsView.swift */,
 			);
 			path = ListApp;
 			sourceTree = "<group>";
@@ -161,12 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D96F322C605750005F5AF5 /* addListView.swift in Sources */,
-				B1D96F342C605750005F5AF5 /* ContentView.swift in Sources */,
-				B1D96F332C605750005F5AF5 /* SettingsView.swift in Sources */,
+				B18D64EF2C627523008B4182 /* AddListView.swift in Sources */,
+				B18D64F32C627582008B4182 /* ContentView.swift in Sources */,
 				B1D96F3C2C605937005F5AF5 /* WorkThroughView.swift in Sources */,
+				B18D64F52C6275A9008B4182 /* SettingsView.swift in Sources */,
 				B18297A62C602FF000979463 /* ListAppApp.swift in Sources */,
-				B1D96F2E2C60573D005F5AF5 /* ListData.swift in Sources */,
+				B18D64F12C627556008B4182 /* ListData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
