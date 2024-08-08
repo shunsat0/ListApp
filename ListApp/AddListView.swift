@@ -39,7 +39,7 @@ struct addListView: View {
     }
     
     private func gemini(prompt:String) async throws -> String {
-        let apiKey = getEnvironmentVar("API_KEY") ?? "default_key"
+        let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String ?? "default_key"
         
         let model = GenerativeModel(name: "gemini-1.5-pro", apiKey: apiKey)
         
